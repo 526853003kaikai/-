@@ -1,3 +1,4 @@
+include ':homework'
 include ':videoplayer'
 include ':app'
 rootProject.name = "P7Day01"
