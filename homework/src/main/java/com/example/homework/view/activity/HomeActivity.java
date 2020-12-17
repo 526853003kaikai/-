@@ -36,7 +36,7 @@ public class HomeActivity extends AppCompatActivity {
         adapter = new MyPagerAdapter(getSupportFragmentManager(), list);
         pager_home.setAdapter(adapter);
         tab_home.setupWithViewPager(pager_home);
-        tab_home.getTabAt(0).setText("A页面");
+        tab_home.getTabAt(0).setText("A页面a");
         tab_home.getTabAt(1).setText("B页面");
     }
 }
